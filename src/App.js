@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
+import React, {Component } from 'react';
 import Header from './components/layout/Header';
-import HackerNews from './components/HackerNews';
+import { Button } from '@material-ui/core'
+import SearchBar from './components/SearchBar';
+import DropDown from './components/DropDown'
 
-class App extends Component { 
+
+export default class App extends Component { 
   render() {
     return (
       <div className="App">
-
         <Header />
+        <Button color="primary" variant="outlined">This is a Button</Button>
+        <SearchBar />
+        <DropDown />
       </div>
     );
   }
 }
-
-export default App;
