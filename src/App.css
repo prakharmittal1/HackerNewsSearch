@@ -5,3 +5,29 @@
 .color-nav {
   background-color: rgb(255,140,0);
 }
+
+.brandname {
+  flex: 1;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.navbar-dark.bg-dark a {
+  color: white;
+}
+
+.list-view {
+  height: 90%;
+  position: fixed;
+  border-right: 5px solid #F8F9FA;
+  float: left;
+  overflow: auto;
+}
+
+.detail-view {
+  height: 90%;
+  float: left;
+  position: fixed;
+  overflow: auto;
+  right: 0;
+}
